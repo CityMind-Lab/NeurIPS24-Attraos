@@ -13,7 +13,7 @@ into Time Series Forecasting, perceiving real-world time series as observations 
     | 🎉&nbsp;<a href="#-news">What's New</a>
     | 🔍&nbsp;<a href="#-about">About</a>
     | 🚀&nbsp;<a href="#-quick-start">Quick Start</a>
-    | 📊&nbsp;<a href="#-evaluation">Evaluation</a>
+    | 📊&nbsp;<a href="#-evaluation">Physics-guided Time Series</a>
     | 🔗&nbsp;<a href="#-citation">Citation</a>
 </p>
 
@@ -30,11 +30,31 @@ into Time Series Forecasting, perceiving real-world time series as observations 
 * Mar 2024: Release of Uni2TS library, along with [Moirai-1.0-R](https://huggingface.co/collections/Salesforce/moirai-10-r-models-65c8d3a94c51428c300e0742) and [LOTSA data](https://huggingface.co/datasets/Salesforce/lotsa_data/)!
 
 
+## ✅ TODO
+
+- [ ] Improve docstrings and documentation
+
+[//]: # (- [ ] Support more pre-training paradigms)
+
+[//]: # (  - [ ] &#40;Non-&#41;Contrastive learning)
+
+[//]: # (  - [ ] Masked Autoencoder)
+
+[//]: # (  - [ ] Next token prediction)
+
+[//]: # (- [ ] Decoder Transformer)
+
+[//]: # (- [ ] Data augmentations - down sampling, subsampling, aggregation)
+
+
 ## 🔍 About
 
 
 
 ## 🚀 Quick Start
+
+## 📊 Physics-guided Time Series
+
 
 
 ## 🔗 Citation
