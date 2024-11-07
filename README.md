@@ -21,7 +21,7 @@ into Time Series Forecasting, perceiving real-world time series as observations 
 
 ## 🎉 What's New
 
-* Oct 2024: 
+* Oct 2024: We have introduced a plug-and-play [physical embedding module](https://arxiv.org/pdf/2410.06651) that boosts performance by 50%, reduces model parameters by 10x, and speeds up computations by 3x.
 
 * Oct 2024: Code released.
 
