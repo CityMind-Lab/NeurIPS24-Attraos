@@ -34,18 +34,7 @@ into Time Series Forecasting, perceiving real-world time series as observations 
 
 - [ ] Improve docstrings and documentation
 
-[//]: # (- [ ] Support more pre-training paradigms)
-
-[//]: # (  - [ ] &#40;Non-&#41;Contrastive learning)
-
-[//]: # (  - [ ] Masked Autoencoder)
-
-[//]: # (  - [ ] Next token prediction)
-
-[//]: # (- [ ] Decoder Transformer)
-
-[//]: # (- [ ] Data augmentations - down sampling, subsampling, aggregation)
-
+- [ ] Validating Attraos' performance on large-scale chaotic datasets
 
 ## 🔍 About
 
