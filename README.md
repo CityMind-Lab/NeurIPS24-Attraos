@@ -83,7 +83,7 @@ bash ./scripts/ETTh1.sh
 ## 👀 Evaluation
 
 <div align="center">
-<img src="figure/table.png" style="width: 80%;" />
+<img src="figure/table.png" style="width: 100%;" />
 </div>
 
 
