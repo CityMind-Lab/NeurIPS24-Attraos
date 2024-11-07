@@ -10,10 +10,11 @@ into Time Series Forecasting, perceiving real-world time series as observations 
 </div>
 
 <p align="center">
-    | 🎉&nbsp;<a href="#-news">What's New</a>
+      🎉&nbsp;<a href="#-news">What's New</a>
+    | 📊&nbsp;<a href="#-evaluation">Physics-guided Time Series</a>
     | 🔍&nbsp;<a href="#-about">About</a>
     | 🚀&nbsp;<a href="#-quick-start">Quick Start</a>
-    | 📊&nbsp;<a href="#-evaluation">Physics-guided Time Series</a>
+    | 👀&nbsp;<a href="#-evaluation">Evaluation</a>
     | 🔗&nbsp;<a href="#-citation">Citation</a>
 </p>
 
@@ -27,6 +28,15 @@ into Time Series Forecasting, perceiving real-world time series as observations 
 
 * Sep 2024: Accepted as a poster in NeurIPS2024.
 
+## 📊 Physics-guided Time Series
+### Next Generation Time Series Model: [Toward Physics-guided Time Series Embedding](https://arxiv.org/pdf/2410.06651)
+
+In reality, time series fundamentally stem from high-dimensional physical systems as noisy low-dimensional observations. Our recent paper [Toward Physics-guided Time Series Embedding](https://arxiv.org/pdf/2410.06651) achieved remarkable improvements (exceeding 50%) across all 8 task metrics and various neural network architectures by directly utilizing the latent dynamical representations of time series data in lieu of parameterized embedding layers in deep time series models.
+<div align="center">
+<img src="figure/overall.png" style="width: 80%;" />
+</div>
+
+
 
 ## ✅ TODO
 
@@ -35,13 +45,42 @@ into Time Series Forecasting, perceiving real-world time series as observations 
 - [ ] Validating Attraos' performance on large-scale chaotic datasets
 
 ## 🔍 About
+Chaos systems are a particular class of dynamical systems where linear or complex nonlinear systems, after sufficient evolution, exhibit stable patterns in their trajectories known as attractors. This paper initially observes striking similarities between the real-world time series data and classical chaotic systems. Consequently, we hypothesize that real-world time series originate from unknown high-dimensional chaotic systems, manifesting as noisy low-dimensional observations, and seek to enhance model predictive performance and interpretability through attractor invariance.
+<div align="center">
+<img src="figure/Attr.png" style="width: 79%;" />
+</div>
 
+Attraos employs a non-parametric phase space reconstruction method to recover the dynamical structure of time series and introduces a Multi-Resolution Dynamic Memory Unit (MDMU) to memorize the structural dynamics in historical sampled data. Specifically, leveraging polynomials as universal approximators for dynamical systems, MDMU extends the operation of State Space Models (SSM) to piecewise polynomial approximations, hierarchically representing the state space. Additionally, we devise a frequency-enhanced local evolution strategy: for dynamical system components belonging to the same attractor, Attraos applies a consistent evolution operator to predict their future states in the frequency domain.
+<div align="center">
+<img src="figure/Model.png" style="width: 80%;" />
+</div>
 
+Drawing inspiration from the Blelloch algorithm and hierarchical projection, both of which are tree-structured operations, we propose an implicit computation approach that achieves logarithmic complexity by storing intermediate results. Odd-position output values are computed through an up-sweep, while even-position values are calculated through a down-sweep.
+<div align="center">
+<img src="figure/MDMU.png" style="width: 80%;" />
+</div>
 
 ## 🚀 Quick Start
+1. Clone repository:
+```shell
+git clone https://github.com/CityMind-Lab/NeurIPS24-Attraos.git
+```
 
-## 📊 Physics-guided Time Series
+2) Build environment:
+```shell
+pip install -e '.[notebook]'
+```
 
+2) Run in ETTh1 dataset:
+```shell
+bash ./scripts/ETTh1.sh
+```
+
+## 👀 Evaluation
+
+<div align="center">
+<img src="figure/table.png" style="width: 80%;" />
+</div>
 
 
 ## 🔗 Citation
@@ -63,3 +102,4 @@ into Time Series Forecasting, perceiving real-world time series as observations 
   year={2024}
 }
 ```
+
