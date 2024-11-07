@@ -1,3 +1,5 @@
+<div align="center">
+    
 # [NeurIPS2024] Attractor memory for long-term time series forecasting: A chaos perspective
 [Paper Link](https://arxiv.org/pdf/2402.11463) | [Openreview](https://openreview.net/forum?id=fEYHZzN7kX&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DNeurIPS.cc%2F2024%2FConference%2FAuthors%23your-submissions))
 
