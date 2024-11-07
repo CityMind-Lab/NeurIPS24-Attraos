@@ -21,13 +21,11 @@ into Time Series Forecasting, perceiving real-world time series as observations 
 
 ## 🎉 What's New
 
-* Oct 2024: A new model Moirai-MoE! The preprint is now available on [arXiv](https://arxiv.org/abs/2410.10469). Model weights to be released soon.
+* Oct 2024: 
 
-* Jun 2024: Released Moirai-1.1-R model weights in [small](https://huggingface.co/Salesforce/moirai-1.1-R-small), [base](https://huggingface.co/Salesforce/moirai-1.1-R-base), and [large](https://huggingface.co/Salesforce/moirai-1.1-R-large).
+* Oct 2024: Code released.
 
-* May 2024: The Uni2TS paper has been accepted to ICML 2024 as an Oral presentation!
-
-* Mar 2024: Release of Uni2TS library, along with [Moirai-1.0-R](https://huggingface.co/collections/Salesforce/moirai-10-r-models-65c8d3a94c51428c300e0742) and [LOTSA data](https://huggingface.co/datasets/Salesforce/lotsa_data/)!
+* Sep 2024: Accepted as a poster in NeurIPS2024.
 
 
 ## ✅ TODO
