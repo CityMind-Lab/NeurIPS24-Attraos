@@ -55,4 +55,11 @@ into Time Series Forecasting, perceiving real-world time series as observations 
   journal={arXiv preprint arXiv:2402.11463},
   year={2024}
 }
+
+@article{hu2024toward,
+  title={Toward Physics-guided Time Series Embedding},
+  author={Hu, Jiaxi and Zhang, Bowen and Wen, Qingsong and Tsung, Fugee and Liang, Yuxuan},
+  journal={arXiv preprint arXiv:2410.06651},
+  year={2024}
+}
 ```
