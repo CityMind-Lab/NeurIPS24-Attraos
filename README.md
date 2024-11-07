@@ -31,3 +31,19 @@ into Time Series Forecasting, perceiving real-world time series as observations 
 
 
 ## 🔍 About
+
+
+
+## 🚀 Quick Start
+
+
+## 🔗 Citation
+
+```bibtex
+@article{hu2024attractor,
+  title={Attractor memory for long-term time series forecasting: A chaos perspective},
+  author={Hu, Jiaxi and Hu, Yuehong and Chen, Wei and Jin, Ming and Pan, Shirui and Wen, Qingsong and Liang, Yuxuan},
+  journal={arXiv preprint arXiv:2402.11463},
+  year={2024}
+}
+```
