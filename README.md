@@ -50,10 +50,14 @@ Chaos systems are a particular class of dynamical systems where linear or comple
 <img src="figure/Attr.png" style="width: 79%;" />
 </div>
 
+----
+
 Attraos employs a non-parametric phase space reconstruction method to recover the dynamical structure of time series and introduces a Multi-Resolution Dynamic Memory Unit (MDMU) to memorize the structural dynamics in historical sampled data. Specifically, leveraging polynomials as universal approximators for dynamical systems, MDMU extends the operation of State Space Models (SSM) to piecewise polynomial approximations, hierarchically representing the state space. Additionally, we devise a frequency-enhanced local evolution strategy: for dynamical system components belonging to the same attractor, Attraos applies a consistent evolution operator to predict their future states in the frequency domain.
 <div align="center">
 <img src="figure/Model.png" style="width: 80%;" />
 </div>
+
+----
 
 Drawing inspiration from the Blelloch algorithm and hierarchical projection, both of which are tree-structured operations, we propose an implicit computation approach that achieves logarithmic complexity by storing intermediate results. Odd-position output values are computed through an up-sweep, while even-position values are calculated through a down-sweep.
 <div align="center">
