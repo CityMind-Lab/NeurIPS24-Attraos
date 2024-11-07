@@ -10,8 +10,8 @@ into Time Series Forecasting, perceiving real-world time series as observations 
 </div>
 
 <p align="center">
-      🎉&nbsp;<a href="#-news">What's New</a>
-    | 📊&nbsp;<a href="#-evaluation">Physics-guided Time Series</a>
+      🎉&nbsp;<a href="#-what's-new">What's New</a>
+    | 📊&nbsp;<a href="#-physics-guided-time-series">Physics-guided Time Series</a>
     | 🔍&nbsp;<a href="#-about">About</a>
     | 🚀&nbsp;<a href="#-quick-start">Quick Start</a>
     | 👀&nbsp;<a href="#-evaluation">Evaluation</a>
