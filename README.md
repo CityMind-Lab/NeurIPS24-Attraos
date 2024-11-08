@@ -37,7 +37,7 @@ In reality, time series fundamentally stem from high-dimensional physical system
 </div>
 
 <div align="center">
-<img src="figure/radar1.png" style="width: 80%;" />
+<img src="figure/radar1.png" style="width: 40%;" />
 </div>
 
 
