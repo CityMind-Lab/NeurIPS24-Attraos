@@ -1,13 +1,12 @@
 <div align="center">
     
-<div style="display: flex; align-items: center;">
-  <span>
-    # [NeurIPS2024] Attractor memory for long-term time series forecasting: A chaos perspective  
-    <a href="https://arxiv.org/pdf/2402.11463">Paper Link</a> | 
-    <a href="https://openreview.net/forum?id=fEYHZzN7kX&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DNeurIPS.cc%2F2024%2FConference%2FAuthors%23your-submissions)">Openreview</a>
-  </span>
-  <img src="figure/Hippo-attraos.png" style="width: 10%; margin-left: 10px;" />
+# [NeurIPS2024] Attractor memory for long-term time series forecasting: A chaos perspective  
+[Paper Link](https://arxiv.org/pdf/2402.11463) | [Openreview](https://openreview.net/forum?id=fEYHZzN7kX&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DNeurIPS.cc%2F2024%2FConference%2FAuthors%23your-submissions))  
+
+<div align="center">  
+<img src="figure/Hippo-attraos.png" style="width: 10%;" />  
 </div>
+
 
 
 This is an official implementation of Attraos, which incorporates chaos theory
