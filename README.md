@@ -4,7 +4,7 @@
 [Paper Link](https://arxiv.org/pdf/2402.11463) | [Openreview](https://openreview.net/forum?id=fEYHZzN7kX&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DNeurIPS.cc%2F2024%2FConference%2FAuthors%23your-submissions))
 
 <div align="center">
-<img src="figure/Hippo-attraos.png" style="width: 80%;" />
+<img src="figure/Hippo-attraos.png" style="width: 20%;" />
 </div>
 
 This is an official implementation of Attraos, which incorporates chaos theory
